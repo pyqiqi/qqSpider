@@ -8,7 +8,13 @@
 import scrapy
 
 
-class ImagespiderItem(scrapy.Item):
+class moodSpiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    	moodContent = scrapy.Field()
+	commentPeoples = scrapy.Field()
+	commentNum = scrapy.Field()
+	parsePeoples = scrapy.Field()
+	parseNum = scrapy.Field()
+	createTime = scrapy.Field()
+

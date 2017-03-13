@@ -1,7 +1,7 @@
 #encoding=utf-8
-targetQqList = ["448118837"]
-selfQq = "448118837"
-cookieStr = "pgv_pvid=4209923001; ptui_loginuin=448118837; pt2gguin=o0448118837; RK=YfG6gwxPeC; ptcz=e9ea7f41e52bc2e1ebe2471d98ffb34c40c6039fd787afb5179473dc1bd35ce5; Loading=Yes; pgv_pvi=8197998592; __Q_w_s__QZN_TodoMsgCnt=1; ptisp=ctc; pgv_info=ssid=s5803148816; uin=o0448118837; skey=@sMg2ycRl7; p_uin=o0448118837; p_skey=P4Utz8hQifec*08aClYYvGF4qairvG9VSyz2BX6e-uQ_; pt4_token=aY8ozcl*hgKPioPydeXJ3WvANlbG*4roX28nnRv*o7Y_; fnc=2; pgv_si=s5458088960"
+targetQqList = [""]
+selfQq = ""
+cookieStr = ""
 def getCookieDic(cookieStr):
 	cookieStr = cookieStr.replace(' ','')
 	cookieList = cookieStr.split(';')
